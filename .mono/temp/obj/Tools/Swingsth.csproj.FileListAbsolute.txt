@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\projects\Godot\.mono\temp\bin\Tools\Swingsth.dll
+C:\Users\User\Desktop\projects\Godot\.mono\temp\bin\Tools\Swingsth.pdb
+C:\Users\User\Desktop\projects\Godot\.mono\temp\obj\Tools\Swingsth.csprojAssemblyReference.cache
+C:\Users\User\Desktop\projects\Godot\.mono\temp\obj\Tools\Swingsth.dll
+C:\Users\User\Desktop\projects\Godot\.mono\temp\obj\Tools\Swingsth.pdb
