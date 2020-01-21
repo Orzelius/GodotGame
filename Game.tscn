@@ -1,8 +1,29 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Scripts/Ground.cs" type="Script" id=1]
+[ext_resource path="res://Scripts/Player.cs" type="Script" id=2]
+[ext_resource path="res://Player.png" type="Texture" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 23.206, 23.3427 )
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Ground" type="Node2D" parent="."]
 script = ExtResource( 1 )
+
+[node name="Player" type="Area2D" parent="."]
+position = Vector2( 30, 300 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Player"]
+scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( -4.96684, -4.6233, 1006.72, 1008.37 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource( 1 )
